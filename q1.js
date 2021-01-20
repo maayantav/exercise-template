@@ -4,7 +4,14 @@ function run() {
     let out = "";
 /**/
     // write your code here
-    // out = input + 5;
+    if (Array.isArray(input))
+    {
+        out = true;
+    }
+    else
+    {
+        out = false;
+    }
 
 /**/
     output.innerText = out;
